@@ -1,0 +1,17 @@
+p {
+    color: black;
+    text-align: justify;
+}
+
+img {
+    width: 250px;
+    margin-right: 40px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-style: normal;
+    margin-left: 40px;
+    margin-right: 40px;
+}
