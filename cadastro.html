@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando o HTML</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário</h1>
+
+
+        <form action="/cadastro.html" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <p>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="id_nome">
+                    <input type="submit">
+                </p>
+                <p>
+                    <label for="nome">Endereço: </label>
+                    <input type="text" name="endereço" id="id_endereço">
+                    <input type="submit">
+                </p>
+                <p>
+                    <label for="nome">Cidade: </label>
+                    <input type="text" name="cidade" id="id_cidade">
+                    <input type="submit">
+                </p>
+                <p>
+                    <label for="estado">Estado: </label>
+                    <select name="estado" id="id_estado">estado:
+                        <option value="São Paulo">São Paulo</option>
+                        <option value="São Paulo">Distrito Federal</option>
+                        <option value="São Paulo">Rio de Janeiro</option>
+                        <option value="São Paulo">Espirito Santo</option>
+                        <option value="São Paulo">Minas Gerais</option>
+                    </select>
+                </p>
+            </fieldset>
+        </form>
+        <form action="/cadastro.html">
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <p>
+                    <input type="radio" name="natureza_do_cargo" id="id_natureza_do_cargo">
+                    <label for="id_natureza_do_cargo">Gerência</label>
+                    <input type="radio" name="natureza_do_cargo" id="id_natureza_do_cargo">
+                    <label for="id_natureza_do_cargo">Financeiro</label>
+                    <input type="radio" name="natureza_do_cargo" id="id_natureza_do_cargo">
+                    <label for="id_natureza_do_cargo">Recepção</label>
+                    <input type="radio" name="natureza_do_cargo" id="id_natureza_do_cargo">
+                    <label for="id_natureza_do_cargo">Administrativo</label>
+                    <input type="radio" name="natureza_do_cargo" id="id_natureza_do_cargo">
+                    <label for="id_natureza_do_cargo">Jurídico</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="areadeinteresse" id="id_areadeinteresse">
+                    <label for="id_areadeinteresse">Computação</label>
+                    <input type="checkbox" name="areadeinteresse" id="id_areadeinteresse">
+                    <label for="id_areadeinteresse">Biologia</label>
+                    <input type="checkbox" name="areadeinteresse" id="id_areadeinteresse">
+                    <label for="id_areadeinteresse">Meio Ambiente</label>
+                    <input type="checkbox" name="areadeinteresse" id="id_areadeinteresse">
+                    <label for="id_areadeinteresse">Engenharia</label>
+                    <input type="checkbox" name="areadeinteresse" id="id_areadeinteresse">
+                    <label for="id_areadeinteresse">História</label>
+                </p>
+                <p>
+                    Mini-Currículo: <textarea name="minicurriculo" id="id_minicurriculo" cols="50" rows="10"></textarea>
+                </p>
+            </fieldset>
+            <p>
+                <button>
+                    Enviar
+                </button>
+                <button>
+                    Limpar
+                </button>
+            </p>
+        </form>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
